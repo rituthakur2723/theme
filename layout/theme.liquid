@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page_title }}</title>
+    <link rel="stylesheet" href="{{ 'styles.css' | asset_url }}">
+    {{content_for_header}}
+</head>
+<body>
+    <div id="header-react"></div>
+    {{ content_for_layout }}
+    <script src="{{ 'bundle.js' | asset_url }}"></script>
+</body>
+</html>

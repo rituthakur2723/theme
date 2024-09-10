@@ -1,0 +1,22 @@
+[
+    {
+      "name": "theme_info",
+      "theme_name": "My Custom Theme",
+      "theme_author": "Your Name",
+      "theme_version": "1.0.0",
+      "theme_documentation_url": "https://your-theme-docs.com",
+      "theme_support_email": "support@your-theme.com"
+    },
+    {
+      "name": "general",
+      "settings": [
+        {
+          "type": "text",
+          "id": "header_text",
+          "label": "Header Text",
+          "default": "Welcome to My Custom Shopify Store"
+        }
+      ]
+    }
+  ]
+  

@@ -1,0 +1,8 @@
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 72px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px #0000001a;
+}

@@ -66,7 +66,7 @@ const Header = ({ settings }) => {
       
       {submenucondition === 'true' && style === 'style-one' && (
         <div className="header-option hola-style-one has-submenu-option">
-          <div className='header-menu'>
+          <div className='header-menu section'>
           <div className="hola-store-logo logo-left">
             <img
               src={image} 
